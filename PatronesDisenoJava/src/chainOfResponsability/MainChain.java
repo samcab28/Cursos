@@ -1,8 +1,8 @@
 package chainOfResponsability;
 
-import chainOfResponsability.concreHandlers.FrontDeskHandler;
-import chainOfResponsability.concreHandlers.SupervisorHandler;
-import chainOfResponsability.concreHandlers.ManagerHandler;
+import chainOfResponsability.concreteHandlers.FrontDeskHandler;
+import chainOfResponsability.concreteHandlers.SupervisorHandler;
+import chainOfResponsability.concreteHandlers.ManagerHandler;
 
 public class MainChain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chainOfResponsability.concreHandlers;
+package chainOfResponsability.concreteHandlers;
 
 import chainOfResponsability.Handler;
 import chainOfResponsability.Request;

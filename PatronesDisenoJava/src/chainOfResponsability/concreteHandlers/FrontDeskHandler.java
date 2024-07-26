@@ -1,8 +1,9 @@
-package chainOfResponsability.concreHandlers;
+package chainOfResponsability.concreteHandlers;
 
 import chainOfResponsability.Handler;
 import chainOfResponsability.Request;
-public class SupervisorHandler implements Handler {
+
+public class FrontDeskHandler implements Handler {
     private Handler nextHandler;
 
     @Override
@@ -12,8 +13,8 @@ public class SupervisorHandler implements Handler {
 
     @Override
     public void handleRequest(Request request) {
-        if (request.getSeverity() <= 2) {
-            System.out.println("Supervisor is handling request: " + request.getDescription());
+        if (request.getSeverity() <= 1) {
+            System.out.println("Front Desk is handling request: " + request.getDescription());
         } else if (nextHandler != null) {
             nextHandler.handleRequest(request);
         }
