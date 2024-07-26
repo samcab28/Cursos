@@ -6,7 +6,7 @@ import command.commandAction.GarageDoorCloseCommand;
 import command.commandAction.LightOffCommand;
 import command.commandAction.LightOnCommand;
 
-public class Client {
+public class MainCommand {
     public static void main(String[] args) {
         // Crear los receptores
         Light livingRoomLight = new Light();
